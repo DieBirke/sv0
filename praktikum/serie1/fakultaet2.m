@@ -10,8 +10,8 @@ if (x < 0 || mod(x, 1))
     error ('x is not a natural number');
 end
 % Calculate factorial by using recursion.
-% End of recursion: The factorial of 1 is 1.
-if (x == 1)
+% End of recursion: The factorial of 0 is 1.
+if (x == 0)
     y = 1;
 % Otherwise, the factorial of x is x * (x-1)!.
 else 
