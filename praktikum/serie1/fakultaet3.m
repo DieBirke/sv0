@@ -12,5 +12,8 @@ if (x < 0 || mod(x, 1))
 end
 % Calculate factorial by multiplying the elements
 % of a vector from 1 to x together.
+if (x == 0)
+    y = 1;
+end
 y = prod(1:x);
 end
